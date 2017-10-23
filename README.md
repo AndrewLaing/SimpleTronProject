@@ -12,7 +12,7 @@ of the Registers and Virtual Memory to the Screen or a Dump File.<br /><br />
 
 # RunSML<br />
 RunSML is an implementation of the SimpleTron which allows users to run SML
-instructions contained within .sml files from the command line.<br /><br />
+instructions contained within .sml files straight from the command line.<br /><br />
 
 # SimpleCompiler<br />
 The Simple Programming language is, as its name implies, a very simple programming 
