@@ -4,26 +4,6 @@
  * Email:       parisianconnections@gmail.com
  * Date:        24/10/2017.
  * Version:     V2.9.4
- * Description: Code has been tidied up a little
- *              Corrected problem with String literal assigning the wrong 
- *               string length to the beginning of strings stored in memory
- *              Max string length increased to 50 chars
- *              Added a newline command which prints a newline to the console
- *              Corrected a problem with the createForInstruction function
- *               adding a blank instruction after tidying up the code
- *              Accepts filenames as args when run with the flag -f
- *              Prints usage information with the flag -h
- *              Repaired String literal creation method which didn't work
- *                with string comparisons. Added a removeFirstChar method to
- *                replace removeQuotes.
- *              Implemented variable string comparisons, and variable string
- *                and string literal comparisons
- *              Fixed problem with looping string compares - eg "continue (y/n)"
- *                which was retaining the last string positions
- *              Add a string literal array so that once a string literal is
- *                added to memory it does not need to be readded each time
- *                it is included into the program.
- *              Added Macro ADDINSTRUCTION
  */
 
 #include "SimpleCompiler.h"
